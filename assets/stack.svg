@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0b3a"/><stop offset="1" stop-color="#0b0420"/>
+    </linearGradient>
+    <style>
+      .n{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif;font-size:17px;font-weight:700;fill:#fff}
+      .k{font-family:Consolas,Menlo,monospace;font-size:12px;letter-spacing:2px;fill:#a78bfa}
+      .i{font-family:Consolas,Menlo,monospace;font-size:22px;font-weight:800}
+      .f{animation:f 4s ease-in-out infinite}
+      .f2{animation-delay:.4s}.f3{animation-delay:.8s}.f4{animation-delay:1.2s}.f5{animation-delay:1.6s}.f6{animation-delay:2s}
+      @keyframes f{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+    </style>
+  </defs>
+  <g class="f"><g transform="translate(15,40)">
+    <rect width="180" height="150" rx="18" fill="url(#card)" stroke="#25D366" stroke-opacity="0.6"/>
+    <circle cx="90" cy="50" r="26" fill="#25D366"/>
+    <path d="M77 63 L80 54 A13 13 0 1 1 85 60 Z" fill="none" stroke="#fff" stroke-width="2.6" stroke-linejoin="round"/>
+    <text x="90" y="105" text-anchor="middle" class="n">WhatsApp</text>
+    <text x="90" y="128" text-anchor="middle" class="k">BAILEYS</text>
+  </g></g>
+  <g class="f f2"><g transform="translate(213,40)">
+    <rect width="180" height="150" rx="18" fill="url(#card)" stroke="#26A5E4" stroke-opacity="0.6"/>
+    <circle cx="90" cy="50" r="26" fill="#26A5E4"/>
+    <path d="M76 50 L104 39 L98 64 L89 57 L84 62 L85 54 L98 44 L82 53 Z" fill="#fff"/>
+    <text x="90" y="105" text-anchor="middle" class="n">Telegram</text>
+    <text x="90" y="128" text-anchor="middle" class="k">TELEGRAF</text>
+  </g></g>
+  <g class="f f3"><g transform="translate(411,40)">
+    <rect width="180" height="150" rx="18" fill="url(#card)" stroke="#5865F2" stroke-opacity="0.6"/>
+    <circle cx="90" cy="50" r="26" fill="#5865F2"/>
+    <rect x="76" y="40" width="28" height="20" rx="8" fill="#fff"/>
+    <circle cx="84" cy="50" r="3" fill="#5865F2"/><circle cx="96" cy="50" r="3" fill="#5865F2"/>
+    <text x="90" y="105" text-anchor="middle" class="n">Discord</text>
+    <text x="90" y="128" text-anchor="middle" class="k">DISCORD.JS</text>
+  </g></g>
+  <g class="f f4"><g transform="translate(609,40)">
+    <rect width="180" height="150" rx="18" fill="url(#card)" stroke="#5FA04E" stroke-opacity="0.7"/>
+    <path d="M90 22 L114 36 V64 L90 78 L66 64 V36 Z" fill="#5FA04E"/>
+    <text x="90" y="57" text-anchor="middle" class="i" fill="#fff">JS</text>
+    <text x="90" y="105" text-anchor="middle" class="n">Node.js</text>
+    <text x="90" y="128" text-anchor="middle" class="k">LTS</text>
+  </g></g>
+  <g class="f f5"><g transform="translate(807,40)">
+    <rect width="180" height="150" rx="18" fill="url(#card)" stroke="#3776AB" stroke-opacity="0.7"/>
+    <rect x="64" y="24" width="26" height="26" rx="7" fill="#3776AB"/>
+    <rect x="90" y="50" width="26" height="26" rx="7" fill="#FFD43B"/>
+    <circle cx="72" cy="32" r="3" fill="#fff"/><circle cx="108" cy="68" r="3" fill="#fff"/>
+    <text x="90" y="105" text-anchor="middle" class="n">Python</text>
+    <text x="90" y="128" text-anchor="middle" class="k">3.X</text>
+  </g></g>
+  <g class="f f6"><g transform="translate(1005,40)">
+    <rect width="180" height="150" rx="18" fill="url(#card)" stroke="#c084fc" stroke-opacity="0.7"/>
+    <circle cx="90" cy="50" r="26" fill="none" stroke="#c084fc" stroke-width="3"/>
+    <ellipse cx="90" cy="50" rx="11" ry="26" fill="none" stroke="#c084fc" stroke-width="2.2"/>
+    <line x1="64" y1="50" x2="116" y2="50" stroke="#c084fc" stroke-width="2.2"/>
+    <text x="90" y="105" text-anchor="middle" class="n">APIs e Sites</text>
+    <text x="90" y="128" text-anchor="middle" class="k">24 HORAS</text>
+  </g></g>
+</svg>

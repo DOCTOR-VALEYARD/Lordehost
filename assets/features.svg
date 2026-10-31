@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0b3a"/>
+      <stop offset="1" stop-color="#0b0420"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c084fc" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#7f00ff" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#ff3cac" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="icon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c084fc"/>
+      <stop offset="1" stop-color="#7f00ff"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .t{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif;font-size:25px;font-weight:800;fill:#fff}
+      .k{font-family:Consolas,'SF Mono',Menlo,monospace;font-size:13px;font-weight:700;letter-spacing:3px;fill:#c084fc}
+      .d{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif;font-size:16px;fill:#cbbde8}
+      .c{animation:in .8s ease-out both}
+      .c2{animation-delay:.12s}.c3{animation-delay:.24s}.c4{animation-delay:.36s}.c5{animation-delay:.48s}.c6{animation-delay:.6s}
+      @keyframes in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+      .h{animation:hb 4s ease-in-out infinite}
+      @keyframes hb{0%,100%{opacity:.5}50%{opacity:1}}
+    </style>
+  </defs>
+
+  <!-- CARD 1 -->
+  <g class="c"><g transform="translate(10,10)">
+    <rect width="373" height="280" rx="22" fill="url(#card)" stroke="url(#stroke)" stroke-width="1.5"/>
+    <circle class="h" cx="66" cy="70" r="52" fill="url(#halo)"/>
+    <rect x="36" y="40" width="60" height="60" rx="16" fill="url(#icon)" filter="url(#glow)"/>
+    <path d="M70 50 L54 74 H66 L62 90 L80 64 H68 Z" fill="#fff"/>
+    <text x="36" y="140" class="k">VELOCIDADE</text>
+    <text x="36" y="174" class="t">Resposta na hora</text>
+    <text class="d"><tspan x="36" y="210">Hardware de alto desempenho para</tspan><tspan x="36" y="234">o seu bot responder rápido, mesmo</tspan><tspan x="36" y="258">com grupo cheio e horário de pico.</tspan></text>
+  </g></g>
+
+  <!-- CARD 2 -->
+  <g class="c c2"><g transform="translate(413,10)">
+    <rect width="373" height="280" rx="22" fill="url(#card)" stroke="url(#stroke)" stroke-width="1.5"/>
+    <circle class="h" cx="66" cy="70" r="52" fill="url(#halo)"/>
+    <rect x="36" y="40" width="60" height="60" rx="16" fill="url(#icon)" filter="url(#glow)"/>
+    <polyline points="48,78 58,78 63,62 70,90 76,70 84,70" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="36" y="140" class="k">ESTABILIDADE</text>
+    <text x="36" y="174" class="t">Sempre de pé</text>
+    <text class="d"><tspan x="36" y="210">Infraestrutura feita para rodar</tspan><tspan x="36" y="234">sem parar, dia e noite. Seu projeto</tspan><tspan x="36" y="258">não fica na mão quando mais precisa.</tspan></text>
+  </g></g>
+
+  <!-- CARD 3 -->
+  <g class="c c3"><g transform="translate(816,10)">
+    <rect width="373" height="280" rx="22" fill="url(#card)" stroke="url(#stroke)" stroke-width="1.5"/>
+    <circle class="h" cx="66" cy="70" r="52" fill="url(#halo)"/>
+    <rect x="36" y="40" width="60" height="60" rx="16" fill="url(#icon)" filter="url(#glow)"/>
+    <path d="M66 50 L84 57 V70 C84 82 76 89 66 92 C56 89 48 82 48 70 V57 Z" fill="none" stroke="#fff" stroke-width="3.2" stroke-linejoin="round"/>
+    <polyline points="58,71 64,77 75,65" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="36" y="140" class="k">SEGURANÇA</text>
+    <text x="36" y="174" class="t">Projeto blindado</text>
+    <text class="d"><tspan x="36" y="210">Cada servidor roda isolado em</tspan><tspan x="36" y="234">container. Seus arquivos, sua memória</tspan><tspan x="36" y="258">e seu desempenho são só seus.</tspan></text>
+  </g></g>
+
+  <!-- CARD 4 -->
+  <g class="c c4"><g transform="translate(10,310)">
+    <rect width="373" height="280" rx="22" fill="url(#card)" stroke="url(#stroke)" stroke-width="1.5"/>
+    <circle class="h" cx="66" cy="70" r="52" fill="url(#halo)"/>
+    <rect x="36" y="40" width="60" height="60" rx="16" fill="url(#icon)" filter="url(#glow)"/>
+    <rect x="47" y="52" width="38" height="28" rx="4" fill="none" stroke="#fff" stroke-width="3"/>
+    <polyline points="54,61 59,66 54,71" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="62" y1="71" x2="72" y2="71" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+    <line x1="58" y1="88" x2="74" y2="88" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    <text x="36" y="140" class="k">CONTROLE</text>
+    <text x="36" y="174" class="t">Painel profissional</text>
+    <text class="d"><tspan x="36" y="210">Pterodactyl, o mesmo padrão usado</tspan><tspan x="36" y="234">pelas grandes hospedagens. Tudo na</tspan><tspan x="36" y="258">palma da mão, até pelo celular.</tspan></text>
+  </g></g>
+
+  <!-- CARD 5 -->
+  <g class="c c5"><g transform="translate(413,310)">
+    <rect width="373" height="280" rx="22" fill="url(#card)" stroke="url(#stroke)" stroke-width="1.5"/>
+    <circle class="h" cx="66" cy="70" r="52" fill="url(#halo)"/>
+    <rect x="36" y="40" width="60" height="60" rx="16" fill="url(#icon)" filter="url(#glow)"/>
+    <path d="M52 56 H76 L72 66 L76 76 H52" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
+    <line x1="52" y1="52" x2="52" y2="90" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/>
+    <text x="36" y="140" class="k">FEITA AQUI</text>
+    <text x="36" y="174" class="t">Pensada pro Brasil</text>
+    <text class="d"><tspan x="36" y="210">Atendimento em português, por quem</tspan><tspan x="36" y="234">vive o mundo dos bots de WhatsApp</tspan><tspan x="36" y="258">e sabe do que o seu projeto precisa.</tspan></text>
+  </g></g>
+
+  <!-- CARD 6 -->
+  <g class="c c6"><g transform="translate(816,310)">
+    <rect width="373" height="280" rx="22" fill="url(#card)" stroke="url(#stroke)" stroke-width="1.5"/>
+    <circle class="h" cx="66" cy="70" r="52" fill="url(#halo)"/>
+    <rect x="36" y="40" width="60" height="60" rx="16" fill="url(#icon)" filter="url(#glow)"/>
+    <path d="M50 56 H82 V78 H64 L56 86 V78 H50 Z" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="59" cy="67" r="2.4" fill="#fff"/><circle cx="66" cy="67" r="2.4" fill="#fff"/><circle cx="73" cy="67" r="2.4" fill="#fff"/>
+    <text x="36" y="140" class="k">SUPORTE</text>
+    <text x="36" y="174" class="t">Direto com o dono</text>
+    <text class="d"><tspan x="36" y="210">Sem robô, sem fila, sem protocolo.</tspan><tspan x="36" y="234">Você fala com quem manda e resolve</tspan><tspan x="36" y="258">de verdade, do começo ao fim.</tspan></text>
+  </g></g>
+</svg>
